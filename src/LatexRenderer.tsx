@@ -1,7 +1,6 @@
 import React from 'react';
 import { renderToString } from 'katex';
 import { KATEX_DEFAULTS } from './constants';
-import 'katex/dist/katex.min.css';
 
 type Props = {
     className?: string;
