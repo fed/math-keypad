@@ -1,0 +1,37 @@
+{
+  "name": "math-keypad",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "A simple math keypad to author LaTeX",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "math",
+    "keypad",
+    "latex"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fknussel/math-keypad.git"
+  },
+  "author": {
+    "name": "Federico Knüssel",
+    "email": "fknussel@gmail.com"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config=jest.config.json",
+    "prepublishOnly": "npm test"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.20",
+    "@types/node": "^12.11.7",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "jest": "^24.9.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4"
+  }
+}
